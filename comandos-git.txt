@@ -5,17 +5,23 @@ git config --global user.name "Leonardo Antoniassi"
 
 git config --global user.email leoantoniassi9@gmail.com
 
--- cria uma pasta no terminal
+-- Cria uma pasta no terminal
 mkdir nome-da-pasta
 
 -- Entra na pasta criada
 cd nome-da-pasta
 
---tranforma a pasta em repositório (só faz 1x)
+--Tranforma a pasta em repositório (só faz 1x)
 git init
 
--- ver status da pasta/repositório
+-- Ver status da pasta/repositório
 git status
 
 -- Adiciona os arquivos para serem versionados
 git add .
+
+-- Troca o Branch de master para Main
+git branch -m master main
+
+-- Envia as atualizações para o GitHub
+git push
